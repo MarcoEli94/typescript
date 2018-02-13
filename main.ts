@@ -1,16 +1,42 @@
-interface Avenger{
-  nombre:string;
-  edad:number;
+/*enum Volumen{
+  min = 1,
+  med, // Siempre uno mas
+  max = 10
 }
 
-var thor:Avenger = {
-  nombre: "Thor",
-  edad: 800
+let audio:number = Volumen.med;
+
+console.log(audio);
+
+
+console.log(Volumen[1]);*/
+/*
+function llamar_tia():void{
+  console.log("Marcar numero");
+  return 1;
 }
 
+let mensaje = llamar_tia();
 
-function desplegar(vengador:Avenger){
-  console.log(`Desplegando a ${vengador.nombre} de ${vengador.edad} años`);
+console.log(mensaje);
+*/
+/*
+function error(mensaje:any):never{ //Puntos criticos
+  throw new Error(mensaje);
 }
 
-desplegar(thor);  
+error("Error critico");
+*/
+/*
+let cualquiera:any = "Warever";
+
+let largoString:number = (<string>cualquiera).length;
+
+console.log(largoString);
+*/
+
+let heroe:string;
+
+heroe = "Tony";
+
+heroe = undefined;
