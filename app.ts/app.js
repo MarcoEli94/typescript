@@ -27,7 +27,7 @@ function actilet_batiseñal() {
 function pedir_ayuda() {
     console.log("Auxilio!!!");
 }
-// Aserciones de Tipo
+// Aserciones de Tipots
 var poder = "100";
 var largoDelPoder = poder.length;
 console.log(largoDelPoder);

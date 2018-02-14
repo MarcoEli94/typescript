@@ -33,7 +33,7 @@ function pedir_ayuda():void{
   console.log("Auxilio!!!");
 }
 
-// Aserciones de Tipo
+// Aserciones de Tipots
 let poder:string = "100";
 let largoDelPoder:number = poder.length;
 console.log( largoDelPoder );
