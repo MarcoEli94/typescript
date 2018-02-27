@@ -64,41 +64,15 @@ let nombre = nombreCompleto("marco", "elizondo");
 
 console.log(nombre);
 */
-/*
-function nombreCompleto(nombre:string, apellido?:string):string{
-  if(apellido) return `${nombre} ${apellido}`;
-  else return `${nombre}`;
-}
-
-let nombre = nombreCompleto("Marco");
-
-console.log(nombre);
-*/
-// PARAMETRO POR DEFECTO! //
-/*
-function nombreCompleto(nombre:string, apellido?:string, capitalizado:boolean = false):string{
-  if(apellido) return `${nombre} ${apellido}`;
-  else return `${nombre}`;
-}
-
-let nombre = nombreCompleto("Marco");
-
-console.log(nombre);
-*/
-/*
-function nombreCompleto(nombre:string, ...restParamteres:string[]):string{
-  return nombre + " " + restParamteres.join(" ");
-}
-
-let superman:string = nombreCompleto("Clark", "Joseph", "Kent");
-
-let ironman:string = nombreCompleto("Antony", "Edward", "Haward", "Stark");
-
-console.log(superman);
-console.log(ironman);
-*/
-function sumar(a, b) {
-}
-var miFuncion;
-miFuncion = 10;
-miFuncion = sumar;
+var flash = {
+    nombre: "Pardus",
+    nombreReal: "Marco",
+    edad: 23,
+    poderes: ["Programar", "Ciclismo"],
+    getNombre: function () {
+        return this.nombre;
+    }
+};
+var warever = "true";
+var cosa;
+console.log(typeof cosa);

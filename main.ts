@@ -99,13 +99,35 @@ let ironman:string = nombreCompleto("Antony", "Edward", "Haward", "Stark");
 console.log(superman);
 console.log(ironman);
 */
-
+/*
 function sumar(a:number, b:number):number{
 
 }
 
-  let miFuncion;
+  let miFuncion:(a:number, b:number) => number;
+*/
+//OBJETOS//
 
-  miFuncion = 10;
+type Hero = {
+  nombre:string,
+  nombreReal:string,
+  edad:number,
+  poderes:string[],
+  getNombre:()=>string,
+}
 
-  miFuncion = sumar;
+let flash:Hero = {
+  nombre: "Pardus",
+  nombreReal: "Marco",
+  edad: 23,
+  poderes: ["Programar", "Ciclismo"],
+  getNombre(){
+      return this.nombre;
+  }
+};
+
+let warever:string|number = "true";
+
+let cosa:number;
+
+console.log(typeof cosa);
