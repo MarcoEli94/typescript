@@ -29,7 +29,7 @@ type Villano = {
   mutante:boolean
 };
 // Villanos debe de ser un arreglo de objetos personalizados
-let villanos:Villano[] = [{
+/*let villanos:Villano[] = [{
   nombre:"Lex Luthor",
   edad: 54,
   mutante:false
@@ -41,7 +41,7 @@ let villanos:Villano[] = [{
   nombre: "James Logan",
   edad: undefined,
   mutante: true
-}];
+}];*/
 
 // Multiples tipos
 // cree dos tipos, uno para charles y otro para apocalipsis

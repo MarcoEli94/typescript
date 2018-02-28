@@ -15,20 +15,6 @@ var bumblebee = {
         console.log("Disparando");
     }
 };
-// Villanos debe de ser un arreglo de objetos personalizados
-var villanos = [{
-        nombre: "Lex Luthor",
-        edad: 54,
-        mutante: false
-    }, {
-        nombre: "Erik Magnus Lehnsherr",
-        edad: 49,
-        mutante: true
-    }, {
-        nombre: "James Logan",
-        edad: undefined,
-        mutante: true
-    }];
 var charles = {
     poder: "psiquico",
     estatura: 1.78

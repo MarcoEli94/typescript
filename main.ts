@@ -107,7 +107,7 @@ function sumar(a:number, b:number):number{
   let miFuncion:(a:number, b:number) => number;
 */
 //OBJETOS//
-
+/*
 type Hero = {
   nombre:string,
   nombreReal:string,
@@ -129,5 +129,12 @@ let flash:Hero = {
 let warever:string|number = "true";
 
 let cosa:number;
+*/
 
-console.log(typeof cosa);
+let mensaje = imprimir("Flash", 25);
+console.log(mensaje);
+function imprimir(heroe:string, edad:number):string{
+  heroe = heroe.toLowerCase();
+  edad = edad + 10;
+  return heroe + " " + edad + " años";
+}
