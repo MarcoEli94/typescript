@@ -128,11 +128,24 @@ let warever:string|number = "true";
 
 let cosa:number;
 */
-var mensaje = imprimir("Flash", 25);
+/*
+let mensaje = imprimir("Flash", 25);
 console.log(mensaje);
-function imprimir(heroe, edad) {
-    heroe = heroe.toLowerCase();
-    edad = edad + 10;
-    return heroe + " " + edad + " años";
-}
+function imprimir(heroe:string, edad:number):string{
+  heroe = heroe.toLowerCase();
+  edad = edad + 10;
+  return heroe + " " + edad + " años";
+}*/
+var Avenger = /** @class */ (function () {
+    function Avenger(nombre, equipo, nombreReal) {
+        this.puedePelear = true;
+        this.victorias = 0;
+        this.nombre = nombre;
+        this.equipo = equipo;
+        this.nombreReal = nombreReal;
+    }
+    return Avenger;
+}());
+var antman = new Avenger("Antman", "Cap", "Hank Pink");
+console.log(antman);
 //# sourceMappingURL=main.js.map

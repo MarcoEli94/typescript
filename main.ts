@@ -130,11 +130,30 @@ let warever:string|number = "true";
 
 let cosa:number;
 */
-
+/*
 let mensaje = imprimir("Flash", 25);
 console.log(mensaje);
 function imprimir(heroe:string, edad:number):string{
   heroe = heroe.toLowerCase();
   edad = edad + 10;
   return heroe + " " + edad + " años";
+}*/
+
+class Avenger{
+  nombre:string;
+  equipo:string;
+  nombreReal:string;
+
+  puedePelear:boolean = true;
+  victorias:number = 0;
+
+  constructor(nombre:string, equipo:string, nombreReal:string){
+    this.nombre = nombre;
+    this.equipo = equipo;
+    this.nombreReal = nombreReal
+  }
 }
+
+let antman:Avenger = new Avenger("Antman", "Cap", "Hank Pink");
+
+console.log(antman);

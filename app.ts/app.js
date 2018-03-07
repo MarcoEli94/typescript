@@ -31,3 +31,4 @@ function pedir_ayuda() {
 var poder = "100";
 var largoDelPoder = poder.length;
 console.log(largoDelPoder);
+//# sourceMappingURL=app.js.map
